@@ -1,0 +1,9 @@
+name: cms_linter
+description: "A CMS Flutter project."
+
+publish_to: 'none'
+
+version: 0.0.1
+
+environment:
+  sdk: ^3.5.0
