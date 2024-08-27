@@ -1,4 +1,4 @@
-# cms
+# Flutter CMS
 A new Flutter CMS project.
 
 ## Getting Started
