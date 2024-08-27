@@ -1,0 +1,13 @@
+name: cms_network
+description: "A CMS Flutter project."
+
+publish_to: 'none'
+
+version: 0.0.1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  cms_linter:
+    path: ../cms_linter
