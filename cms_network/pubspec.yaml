@@ -1,8 +1,6 @@
 name: cms_network
 description: "A CMS Flutter project."
-
 publish_to: 'none'
-
 version: 0.0.1
 
 environment:
@@ -11,3 +9,13 @@ environment:
 dependencies:
   cms_linter:
     path: ../cms_linter
+  cms_configs:
+    path: ../cms_configs
+  logger: any
+  json_annotation: ^4.9.0
+  retrofit: ^4.2.0
+
+dev_dependencies:
+  build_runner: ^2.3.3
+  json_serializable: ^6.8.0
+  retrofit_generator: ^8.2.0

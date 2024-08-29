@@ -1,8 +1,6 @@
 name: cms
 description: "A CMS Flutter project."
-
 publish_to: 'none'
-
 version: 1.0.0+1
 
 environment:
@@ -15,9 +13,12 @@ dependencies:
   go_router: ^14.2.7
   cms_linter:
     path: ./cms_linter
+  cms_configs:
+    path: ./cms_configs
   cms_network:
     path: ./cms_network
   json_annotation: ^4.9.0
+  get_it: ^7.7.0
 
 dev_dependencies:
   flutter_test:
@@ -25,6 +26,8 @@ dev_dependencies:
   flutter_lints: ^4.0.0
   build_runner: ^2.3.3
   json_serializable: ^6.8.0
+  retrofit_generator: ^8.2.0
+  injectable_generator: ^2.6.2
 
 flutter:
   uses-material-design: true
