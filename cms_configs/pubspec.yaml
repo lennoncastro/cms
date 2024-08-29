@@ -1,0 +1,19 @@
+name: cms_configs
+description: "A CMS Flutter project."
+publish_to: 'none'
+version: 0.0.1
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  cms_linter:
+    path: ../cms_linter
+  logger: any
+  json_annotation: ^4.9.0
+  retrofit: ^4.2.0
+
+dev_dependencies:
+  build_runner: ^2.3.3
+  json_serializable: ^6.8.0
+  retrofit_generator: ^8.2.0
