@@ -1,4 +1,4 @@
-import 'package:cms/src/configs/configs.dart';
+import 'package:cms/src/configs/src.dart';
 import 'package:cms/src/src.dart';
 import 'package:cms_configs/src/src.dart';
 import 'package:cms_network/src/src.dart';

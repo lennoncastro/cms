@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'configs.dart';
+import 'src.dart';
 
 const String appName = 'Flutter CMS';
 

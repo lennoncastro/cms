@@ -1,4 +1,4 @@
-import 'package:cms/src/pages/pages.dart';
+import 'package:cms/src/pages/src.dart';
 import 'package:go_router/go_router.dart';
 
 class Routes {
