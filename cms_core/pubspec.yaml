@@ -1,4 +1,4 @@
-name: cms_configs
+name: cms_core
 description: "A CMS Flutter project."
 publish_to: 'none'
 version: 0.0.1
@@ -12,6 +12,7 @@ dependencies:
   logger: any
   json_annotation: ^4.9.0
   retrofit: ^4.2.0
+  get_it: ^7.7.0
 
 dev_dependencies:
   build_runner: ^2.3.3

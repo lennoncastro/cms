@@ -1,19 +1,21 @@
-import 'package:cms/src/configs/src.dart';
+import 'dart:async';
+
 import 'package:cms/src/src.dart';
-import 'package:cms_configs/src/src.dart';
-import 'package:cms_network/src/src.dart';
+import 'package:cms_core/src/src.dart';
 import 'package:flutter/material.dart';
 
-import 'src/di.dart';
+import 'src/pages/posts/posts.module.dart';
 
 void main() {
-  setUpApp();
-  runApp(const App());
+  WidgetsFlutterBinding.ensureInitialized();
+  runZonedGuarded(() {
+    setUpAppDependencies();
+    runApp(const App());
+  }, (error, stackTrace) {
+    //TODO: add error logger
+  });
 }
 
-void setUpApp() {
-  DIImpl()
-    ..registerFactory<HttpClient>(
-      HttpClientImpl()..options.baseUrl = Environment.development.baseUrl,
-    );
+void setUpAppDependencies() {
+  Locator.addModule(postsModule);
 }

@@ -9,8 +9,8 @@ environment:
 dependencies:
   cms_linter:
     path: ../cms_linter
-  cms_configs:
-    path: ../cms_configs
+  cms_core:
+    path: ../cms_core
   logger: any
   json_annotation: ^4.9.0
   retrofit: ^4.2.0

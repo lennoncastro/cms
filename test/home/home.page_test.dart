@@ -1,7 +1,12 @@
+import 'package:cms/main.dart';
 import 'package:cms/src/configs/src.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
+  setUp(() {
+    setUpAppDependencies();
+  });
+
   testWidgets('Should render correctly', (WidgetTester tester) async {
     // arrange
     await tester.pumpWidget(App());
