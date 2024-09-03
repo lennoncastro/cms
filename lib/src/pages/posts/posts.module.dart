@@ -1,4 +1,4 @@
-import 'package:cms_configs/src/di.dart';
+import 'package:cms_core/src/di.dart';
 
 import 'presentation/posts.viewmodel.dart';
 
