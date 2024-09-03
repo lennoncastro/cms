@@ -1,5 +1,5 @@
-import 'package:cms_configs/src/extensions/generics.dart';
 import 'package:get_it/get_it.dart';
+import './extensions/generics.dart';
 
 abstract class DI {
   T call<T extends Object>({String? instanceName});
