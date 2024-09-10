@@ -1,4 +1,5 @@
 import 'package:get_it/get_it.dart';
+
 import './extensions/generics.dart';
 
 abstract class DI {
@@ -79,7 +80,15 @@ class Locator {
     _di.registerSingleton(instanceName: instanceName, () => instance);
   }
 
-  static void addModule(LocatorModule module) {
-    _di.within(module);
+  static void addModule([
+    LocatorModule? module = null,
+  ]) {
+    if (module != null) _di.within(module);
+  }
+
+  static void addModules([
+    List<LocatorModule>? modules = null,
+  ]) {
+    if (modules != null) modules.forEach(_di.within);
   }
 }
