@@ -12,6 +12,7 @@ void main() {
     FlutterError.onError = (FlutterErrorDetails details) {
       catchUnhandledExceptions(details.exception, details.stack);
     };
+    setUpAppDependencies();
     runApp(const App());
   }, catchUnhandledExceptions);
 }
