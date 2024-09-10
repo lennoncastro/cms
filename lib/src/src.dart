@@ -1,1 +1,1 @@
-export 'configs/app.dart';
+export 'app.dart';

@@ -1,5 +1,5 @@
+import 'package:cms/src/routes.dart';
 import 'package:flutter/material.dart';
-import 'src.dart';
 
 const String appName = 'Flutter CMS';
 
